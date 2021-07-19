@@ -118,7 +118,7 @@ export default ({ user, interviewee }) => (
           MDUI
         </a>{' '}
         &{' '}
-        <a href="https://mdclub.org" target="_blank">
+        <a href="https://forum.edao.me" target="_blank">
           MDClub
         </a>
       </p>
