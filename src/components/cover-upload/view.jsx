@@ -11,8 +11,8 @@ import './index.less';
 const upload = (e, user) => {
   const file = e.target.files[0];
 
-  if (file.size > 5 * 1024 * 1024) {
-    mdui.snackbar('封面文件不能超过 5M');
+  if (file.size > 15 * 1024 * 1024) {
+    mdui.snackbar('封面文件不能超过 15M');
     e.target.value = '';
     return;
   }
